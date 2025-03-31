@@ -42,15 +42,14 @@
         text-align: center;
     }
 
-    /* Buttons */
-
-    .btn {
-        padding: 10px 50px;
-    }
-
+    
     /*  SOCIAL NETWORKS */
     .social-networks {
-       padding: 0 10px;
+        padding: 0 10px;
+    }
+
+    .social-networks .btn {
+        padding: 10px 50px;
     }
 
     /* ADS */
@@ -59,9 +58,32 @@
     }
 
     /* Recipe Presentation */
-    
+
     .clearfix img {
         float: left;
         margin-right: 12px;
     }
+}
+
+
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+
+    /* Utilities */
+
+    .container {
+        width: 80%;
+    }
+
+    /* Recipe header */
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+
+
+
+
+
 }
