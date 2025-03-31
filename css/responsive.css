@@ -1,0 +1,67 @@
+/* Soluzione qui */
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+    /* header */
+
+    #topbar {
+        justify-content: start;
+    }
+
+
+    /* main */
+
+    main {
+        padding: 47px;
+    }
+
+    /* Recipe header */
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-name {
+        font-size: 1.7rem;
+    }
+
+    /* Quick Notes */
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        width: 33%;
+        font-size: 17px;
+    }
+
+    .pie {
+        text-align: center;
+    }
+
+    /* Buttons */
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    /*  SOCIAL NETWORKS */
+    .social-networks {
+       padding: 0 10px;
+    }
+
+    /* ADS */
+    .ads {
+        display: block;
+    }
+
+    /* Recipe Presentation */
+    
+    .clearfix img {
+        float: left;
+        margin-right: 12px;
+    }
+}
