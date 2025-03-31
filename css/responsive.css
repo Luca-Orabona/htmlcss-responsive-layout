@@ -1,5 +1,23 @@
 /* Soluzione qui */
 
+/* LARGE MOBILE */
+@media screen and (min-width: 576px) {
+
+    .clearfix img {
+        float: left;
+        margin-right: 12px;
+    }
+
+    .social-networks .btn {
+        width: 25%;
+        padding: 10px 0;
+    }
+
+}
+
+
+
+
 /* TABLET */
 @media screen and (min-width: 768px) {
 
@@ -48,10 +66,13 @@
         padding: 0 10px;
     }
 
-    .social-networks .btn {
+
+    /* .social-networks .btn {
         width: 25%;
         padding: 10px 0;
-    }
+    } */
+
+
 
     /* ADS */
     .ads {
@@ -59,12 +80,16 @@
     }
 
     /* Recipe Presentation */
-
-    .clearfix img {
+    
+    /* .clearfix img {
         float: left;
         margin-right: 12px;
-    }
+    } */
 }
+
+
+
+
 
 
 
@@ -132,3 +157,5 @@
         text-align: left;
     }
 }
+
+
